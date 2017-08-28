@@ -2,7 +2,7 @@
   "name": "urlshortener",
   "version": "1.0.0",
   "description": "Free Code Camp backend project",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/Joao-Henrique/URL-Shortener-Microservice/issues"
   },
-  "homepage": "https://github.com/Joao-Henrique/URL-Shortener-Microservice#readme"
+  "homepage": "https://github.com/Joao-Henrique/URL-Shortener-Microservice#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.9"
+  }
 }
