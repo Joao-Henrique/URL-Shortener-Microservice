@@ -81,7 +81,7 @@ app.get('/:urlToForward', (req, res) => {
 
 ////////////////////////////////////////////////////
 ////////////   LISTEN ON PORT   ////////////////////
-const portNumber = (process.env.port) || 3000;
+const portNumber = (process.env.PORT) || 3000;
 app.listen( portNumber, () => 
   console.log('YOUR SERVER IS RUNNING...'));
 // END /////////////////////////////////////////////
